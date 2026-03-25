@@ -1,0 +1,24 @@
+{
+  "name": "kodr-dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Q39.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkushSaha01/KODR_DSA_Book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnkushSaha01/KODR_DSA_Book/issues"
+  },
+  "homepage": "https://github.com/AnkushSaha01/KODR_DSA_Book#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
