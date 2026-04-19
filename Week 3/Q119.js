@@ -26,8 +26,6 @@ for (let char in targetCount) {
         break;
     }
     result = Math.min(result, Math.floor(sCount[char] / targetCount[char]));
-
-    
 }
 
 console.log(result);
