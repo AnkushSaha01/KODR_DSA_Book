@@ -1,25 +1,17 @@
 const prompt = require("prompt-sync")();
 
 //V Pattern - Min Height = 3
-let num = 3;
-let str = "";
-for (let i = 1; i <= num; i++) {
-    for (let j = 1; j <= i; j++) {
-        if(i===j){
-          str += "*";
-        }
-        else{
-          str += " ";
-        }
-    }
-    for (let k = 1; k <= num; k++) {
-      // str += "*";
-        if(k === num+1-i){
-          str += "*";
-        }
-        else{
-          str += " ";
+let n = 5;
+
+for (let i = 0; i < n; i++) {
+    let row = '';
+
+    for (let j = 0; j < 2 * n - 1; j++) {
+        if (j === i || j === (2 * n - 2 - i)) {
+            row += '*';
+        } else {
+            row += ' ';
         }
     }
-    console.log(str);
+    console.log(row);
 }
